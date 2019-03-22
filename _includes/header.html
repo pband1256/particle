@@ -1,5 +1,10 @@
 <div style='height: auto; width: 100%; object-fit: contain'; id="x">
 	
+	<!-- Navigation -->
+
+	
+	
+	
   <div class="header">
       <h1>
         <span class="site-title">{{site.username}}</span>
@@ -12,10 +17,13 @@
         <a aria-label="Github" target="_blank" href="https://www.github.com/{{ site.github_username }}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
 		<a aria-label="LinkedIn" target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
       </div>
-      <div class="header-links">
+	  	 
+	  <div class="header-links">
         <a class="link" href="#about" data-scroll>About</a>
         <a class="link" href="#projects" data-scroll>Projects</a>
+		<a class="link" href="{{ site.url }}/cv.pdf" data-scroll>CV</a>
       </div>
+	  
   </div>
   <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
   </div>
